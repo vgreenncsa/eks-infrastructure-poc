@@ -1,9 +1,9 @@
 # tf_backend.tf
 terraform {
   backend "s3" {
-    bucket         = "BUCKET"
-    key            = "BUCKET/dev/tf.state"
+    bucket         = "ptc-ue2-ncsadev-eks-poc"
+    key            = "ptc-ue2-ncsadev-eks-poc/dev/tf.state"
     region         = "us-east-2"
-    dynamodb_table = "BUCKET"
+    dynamodb_table = "ptc-ue2-ncsadev-eks-poc"
   }
 }
