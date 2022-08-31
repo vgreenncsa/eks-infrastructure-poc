@@ -1,7 +1,7 @@
 # vpc.tfvars
 
 #
-vpc_name = "onekloud-infra-dev"
+vpc_name = "ue2-ncsadev-vpc-eks"
 
 #
 vpc_cidr = "10.155.0.0/16"
@@ -20,14 +20,14 @@ enable_s3_endpoint = true
 
 #
 vpc_tags = {
-  "Name" = "onekloud-infra-vpc-dev"
+  "Name" = "ue1-ncsadev-vpc-eks"
 }
 
 #
-dns_private_zone_name = "development.swagwatch.io."
+dns_private_zone_name = "ncsadev.ue1.ptc.dev."
 
 #
-dns_public_zone_name = "development.swagwatch.io."
+dns_public_zone_name = "ncsadev.ue1.ptc.dev."
 
 #
 dns_reverse_zone_name = "10.155.in-addr.arpa."
